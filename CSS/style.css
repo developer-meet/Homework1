@@ -73,8 +73,16 @@
 
 /* font css */
 
+.fs-15px {
+  font-size: 15px;
+}
+
 .fs-18px {
   font-size: 18px;
+}
+
+.fs-20px {
+  font-size: 20px;
 }
 
 .fs-22px {
@@ -287,5 +295,30 @@
 
   .about-us-sec .about-us-sec-btn {
     padding: 20px 100px !important;
+  }
+}
+
+/* clients-sec */
+
+.clients-sec .container .row .col {
+  height: auto;
+  width: 300px;
+  border: 1px solid whitesmoke;
+  padding: 34px 34px 20px !important;
+  box-shadow: 1px 2px 10px #f1efef;
+  border-radius: 14px;
+}
+
+.clients-sec .container .row .col .clients-img-sec {
+  margin-top: -65px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .body .clients-sec {
+    padding: 30px 10px 24px !important;
+  }
+
+  .clients-sec .clients-sec-main-heading {
+    font-size: 32px !important;
   }
 }
