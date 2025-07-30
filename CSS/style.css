@@ -361,3 +361,41 @@
     font-size: 32px !important;
   }
 }
+
+/* footer section */
+
+.footer {
+  height: 100px;
+  background-color: #20202d;
+}
+
+.footer .footer-main-line {
+  color: #f6f6f6;
+}
+
+.footer-icon-sec div {
+  height: 36px;
+  width: 36px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .body .footer {
+    height: auto;
+    display: block !important;
+    text-align: center;
+    padding: 30px 10px !important;
+  }
+
+  .footer .footer-left-sec {
+    padding-bottom: 10px !important;
+  }
+
+  .footer .footer-icon-sec {
+    justify-content: center !important;
+  }
+}
