@@ -216,3 +216,35 @@
     font-size: 32px !important;
   }
 }
+
+/* sec-3 */
+
+.s3-services .row .col {
+  height: 260px;
+  max-width: 250px !important;
+  background-color: #ddc7bb;
+  border-radius: 18px;
+  padding: 24px !important;
+}
+
+.s3-services .row .col div {
+  width: 60px;
+  height: 60px;
+  background-color: #fbf5f1;
+  border-radius: 8px;
+}
+
+.s3-services .row .col div img {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .body .sec-3 {
+    padding: 30px 10px 24px !important;
+  }
+
+  .sec-3 .s3-main-heading {
+    font-size: 32px !important;
+  }
+}
