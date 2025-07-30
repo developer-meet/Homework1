@@ -1,0 +1,155 @@
+/* Import Poppins Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+:root {
+  --white: white;
+  --black: black;
+  --sim-orange: #f46d21;
+  --sim-dark-brown: #2b1b12;
+  --sim-brown: #4f3527;
+  --sim-black: #030303;
+  --sim-gray: #656464;
+  --sim-blue: #217bf4;
+}
+
+/* color css */
+
+.white-color {
+  color: var(--white);
+}
+
+.black-color {
+  color: var(--black);
+}
+
+.sim-orange-color {
+  color: var(--sim-orange);
+}
+
+.sim-dark-brown-color {
+  color: var(--sim-dark-brown);
+}
+
+.sim-brown-color {
+  color: var(--sim-brown);
+}
+
+.sim-black-color {
+  color: var(--sim-black);
+}
+
+.sim-gray-color {
+  color: var(--sim-gray);
+}
+
+.sim-blue-color {
+  color: var(--sim-blue);
+}
+
+/* width css */
+
+.max-width-1280px {
+  max-width: 1280px !important;
+}
+
+/* font css */
+
+.fs-18px {
+  font-size: 18px;
+}
+
+.fs-32px {
+  font-size: 32px;
+}
+
+/* border radius */
+
+.border-r-8px {
+  border-radius: 8px;
+}
+
+/* Sec-1 */
+
+.sec-1 {
+  background-image: url(../Assets/Img\ 1.png);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.sec-1 .form {
+  width: 400px;
+  height: auto !important;
+  padding: 40px !important;
+  background-color: rgb(25, 42, 104, 0.75);
+  border: 2px solid var(--white);
+}
+
+.form .s1-main-heading {
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.sec-1 .form input {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  outline: none;
+  padding: 10px !important ;
+  color: var(--white);
+  margin-bottom: 20px !important;
+}
+
+.sec-1 .form input::placeholder {
+  color: #ffffff;
+}
+
+.s1-form-btn {
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px !important ;
+  background-color: var(--sim-orange);
+  border: 2px solid var(--sim-orange);
+}
+
+@media screen and (max-width: 768px) {
+  .body .sec-1 {
+    display: block !important;
+    padding-bottom: 24px !important;
+  }
+
+  .sec-1 .form {
+    margin: 36px auto 0 !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sec-1 .form {
+    margin: 0 auto !important;
+    width: 90% !important;
+  }
+
+  .body .sec-1 {
+    padding: 30px 10px 24px !important;
+  }
+}
