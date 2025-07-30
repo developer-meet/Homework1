@@ -77,8 +77,16 @@
   font-size: 18px;
 }
 
+.fs-22px {
+  font-size: 22px;
+}
+
 .fs-32px {
   font-size: 32px;
+}
+
+.fs-46px {
+  font-size: 46px;
 }
 
 .fs-48px {
@@ -246,5 +254,38 @@
 
   .sec-3 .s3-main-heading {
     font-size: 32px !important;
+  }
+}
+
+/* about-us-sec */
+
+.about-us-sec .about-us-sec-line {
+  height: 12px;
+  width: 200px;
+  background-color: #060606;
+  border-radius: 100px;
+}
+
+.about-us-sec .about-us-sec-btn {
+  border: 2px solid var(--sim-blue);
+  padding: 20px 140px !important;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+  .body .about-us-sec {
+    padding: 30px 10px 24px !important;
+  }
+
+  .about-us-sec .about-us-sec-main-heading {
+    font-size: 32px !important;
+  }
+
+  .about-us-sec .about-us-sec-line {
+    width: 150px;
+  }
+
+  .about-us-sec .about-us-sec-btn {
+    padding: 20px 100px !important;
   }
 }
