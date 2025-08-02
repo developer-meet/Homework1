@@ -325,7 +325,7 @@
   }
 
   .about-us-sec .about-us-sec-btn {
-    padding: 20px 100px !important;
+    padding: 10px 15px !important;
   }
 }
 
@@ -385,7 +385,7 @@
   }
 
   .sec-7 p {
-    font-size: 32px !important;
+    font-size: 18px !important;
   }
 }
 
@@ -424,5 +424,10 @@
 
   .footer .footer-icon-sec {
     justify-content: center !important;
+  }
+
+  .footer-icon-sec div {
+    height: 30px;
+    width: 30px;
   }
 }
