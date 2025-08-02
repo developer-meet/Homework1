@@ -269,6 +269,22 @@
   }
 }
 
+/* Section 4 */
+
+.sec-4 div {
+  width: 100%;
+}
+
+.sec-4 div img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .body .sec-4 {
+    padding: 30px 10px 0px !important;
+  }
+}
+
 /* about-us-sec */
 
 .about-us-sec .about-us-sec-line {
